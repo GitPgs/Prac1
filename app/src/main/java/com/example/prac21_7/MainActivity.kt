@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
             student.age = 16
 
+            student.name="sohai"
+
             binding.apply() {
                 invalidateAll()
             }
